@@ -9,6 +9,7 @@ public class CalcImplementationTest extends TestCase {
 	CalcImplementation obj;
 	int x;
 	int y;
+	int z;
 	
 	protected void setUp() throws Exception {
 		obj = new CalcImplementation();
