@@ -9,15 +9,15 @@ public class CalcImplementation {
 	}
 	
 	public int substractTwoNums(int a, int b) {
-		return intObj.add(a, b);
+		return intObj.substract(a, b);
 	}
 	
 	public int multiplyTwoNums(int a, int b) {
-		return intObj.add(a, b);
+		return intObj.multiply(a, b);
 	}
 	
-	public int divideTwoNums(int a, int b) {
-		return intObj.add(a, b);
+	public double divideTwoNums(int a, int b) {
+		return intObj.divide(a, b);
 	}
 
 	public void setIntObj(CalcInterface intObj) {

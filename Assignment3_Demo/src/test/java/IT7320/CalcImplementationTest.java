@@ -41,15 +41,15 @@ public class CalcImplementationTest extends TestCase {
 	}
 	
 	public void testSubstractTwoNums() {
-		assertEquals(17,obj.substractTwoNums(x, y));
+		assertEquals(-3,obj.substractTwoNums(x, y));
 	}
 	
 	public void testMultiplyTwoNums() {
-		assertEquals(17,obj.multiplyTwoNums(x, y));
+		assertEquals(70,obj.multiplyTwoNums(x, y));
 	}
 	
 	public void testDivideTwoNums() {
-		assertEquals(17,obj.divideTwoNums(x, y));
+		assertEquals(0.7,obj.divideTwoNums(x, y));
 	}
 
 }
